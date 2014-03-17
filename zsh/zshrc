@@ -14,7 +14,6 @@ alias rmd="rm -rf"
 alias c="xclip -sel clip"
 alias v="xclip -sel clip -o"
 alias sserver="ruby -run -e httpd . -p 5000"
-alias android-studio="/home/xaro/bin/android-studio/bin/studio.sh"
 alias zshreload=". ~/.zshrc"
 alias gA="git add -A"
 mkchdir() {
@@ -59,6 +58,10 @@ unsetopt correct_all
 zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
+bindkey "^[e" end-of-line
+bindkey "^[a" beginning-of-line
+bindkey "[D" backward-word
+bindkey "[C" forward-word
 
 plugins=(git ruby rails heroku)
 #fpath=(/home/xaro/.oh-my-zsh/custom/plugins/zsh-completions/src $fpath)

@@ -61,7 +61,7 @@ bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
 plugins=(git ruby rails heroku)
-fpath=(/home/xaro/.oh-my-zsh/custom/plugins/zsh-completions/src $fpath)
+#fpath=(/home/xaro/.oh-my-zsh/custom/plugins/zsh-completions/src $fpath)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.profile

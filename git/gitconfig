@@ -10,7 +10,7 @@
 [push]
 	default = current
 [core]
-	excludesfile = /.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [branch "master"]
 	remote = origin

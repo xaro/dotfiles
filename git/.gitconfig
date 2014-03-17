@@ -1,0 +1,17 @@
+[user]
+	name = Roberto Poo
+	email = xaro@poo.cl
+[color]
+	ui = auto
+[diff]
+	renames = copies
+[branch]
+	autosetupmerge = true
+[push]
+	default = current
+[core]
+	excludesfile = /.gitignore_global
+	autocrlf = input
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

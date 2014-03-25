@@ -4,6 +4,7 @@
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"ApplySyntax",
+		"BeautifyRuby",
 		"Better CoffeeScript",
 		"CoffeeScriptHaml",
 		"Haml",
@@ -12,6 +13,7 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"Theme - Soda",
-		"Tomorrow Color Schemes"
+		"Tomorrow Color Schemes",
+		"TrailingSpaces"
 	]
 }

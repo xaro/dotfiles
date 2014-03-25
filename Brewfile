@@ -36,10 +36,15 @@ install webkit2png
 install zopfli
 install p7zip
 install zsh
+install pow
 
 install homebrew/versions/lua52
 
 install brew-cask
+
+# Casks
+cask install anvil
+cask install google-chrome
 
 # Remove outdated versions from the cellar
 cleanup

@@ -40,6 +40,10 @@ install pow
 
 install homebrew/versions/lua52
 
+install mysql
+install libyaml
+install python
+
 install brew-cask
 
 # Casks

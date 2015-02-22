@@ -2,6 +2,7 @@
 update
 
 tap phinze/cask
+tap caskroom/versions
 
 # Upgrade any already-installed formulae
 upgrade
@@ -36,19 +37,26 @@ install webkit2png
 install zopfli
 install p7zip
 install zsh
-install pow
+#install pow
 
 install homebrew/versions/lua52
 
-install mysql
+#install mysql
 install libyaml
 install python
 
 install brew-cask
 
 # Casks
-cask install anvil
-cask install google-chrome
+#cask install anvil
+#cask install google-chrome
+cask install steam
+cask install iterm2
+cask install sublime-text3
+cask install skim
+cask install android-file-transfer
+cask install transmission
+cask install dropbox
 
 # Remove outdated versions from the cellar
 cleanup
